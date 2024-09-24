@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/* Navigation */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.Website-Background
+{
+    background: radial-gradient(circle at top left, #1e1e1e 80%, #1DB954 85%, #40D77F 90%);
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.Main-Div
+{
+    
+    height: 400px;
+    width: 100%;
+}
+
+.Name
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Name h1
+{
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    line-height: 50px;
+}
+.Title
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Title h2
+{
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.Div-2
+{
+    
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Box-1
+{
+    background-color: #131313;
+    height: 220px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    border-radius: 6px;
+    
+}
+.Box-1:hover
+{
+    box-shadow: 0 4px 10px #F06529;
+}
+.Box-1-Logo
+{
+    background-color: #F06529;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    
+}
+.Box-1-Logo img
+{
+    height: 40px;
+}
+.Box-1-Logo p
+{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.Box-1-Body
+{
+    
+    height: 166px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px 0px 15px;    
+}
+.Box-1-Body p
+{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    
+}
+.Box-2
+{
+    background-color: #131313;
+    height: 220px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    border-radius: 6px;
+    margin: 0px 0px 0px 15px;
+}
+.Box-2:hover
+{
+    box-shadow: 0 4px 10px #1572B6;
+}
+.Box-2-Logo
+{
+    background-color: #1572B6;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.Box-2-Logo img
+{
+    height: 40px;
+}
+.Box-2-Logo p
+{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.Box-2-Body
+{
+    
+    height: 166px;
+    width: 100%;
+    display: flex;
+    padding: 10px 0px 0px 15px;
+    
+}
+.Box-2-Body p
+{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    
+}
+
+.Lining-2
+{
+    background-color: #494848;
+    height: 1px;
+    width: 160px;
+    margin-left: 15px;
+}
+
+.Web-Dev
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Web-Dev h3
+{
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: Bebas Neue, Arial;
+    font-weight: 500;
+    line-height: 50px;
+    
+}
+
+.Clickable-Picture
+{
+    
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.Clickable-Picture img
+{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    animation: jump 2s infinite;
+}
+
+@keyframes jump {
+    0% { transform: translateY(0); }
+    20% { transform: translateY(-20px); }
+    40% { transform: translateY(0); } 
+    100% { transform: translateY(0); }
+}

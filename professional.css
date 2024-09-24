@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.Website-Background
+{
+    background: linear-gradient(90deg, #1e1e1e 90%, #1DB954 95%, #40D77F 100%);
+
+
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.Main-Div
+{
+
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Template
+{
+    background-color: #131313;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px #3c3d3d;
+    
+}
+
+.Side-Bar
+{
+    background-color: #0a0a0a;
+    height: 100%;
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    
+    
+}
+
+.Side-Bar-Title
+{
+    
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Side-Bar-Title h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.2rem;
+    line-height: 30px;
+
+}
+
+.Main-Box
+{
+    background-color: #0a0a0a;
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15px;
+    border-bottom-left-radius: 5px;
+}
+
+.Box-1
+{
+    background: linear-gradient(135deg, #141414 70%, #1DB954 85%, #40D77F 100%);
+    height: 130px;
+    width: 185px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.Box-1:hover
+{
+    transform: scale(1.1,1.1);
+    box-shadow: 0 4px 10px #40D77F;
+}
+.Box-1-Header
+{
+    
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Box-1-Header h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.Divider
+{
+    background-color: rgb(221, 217, 217);
+    height: 1px;
+    width: 160px;
+    margin-left: 13px;
+}
+
+.Box-1-Body
+{
+    
+    height: 109px;
+    width: 100%;
+    display: flex;
+}
+.Left-Side
+{
+    
+    height: 109px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+.Left-Side p
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    
+}
+
+.Divider-2
+{
+    background-color: rgb(221, 217, 217);
+    height: 100px;
+    width: 1px;
+    margin-top: 4px;
+}
+
+.Sub-Div
+{
+    
+    height: 100%;
+    width: 585px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Line-Divider
+{
+    background-color: #fff;
+    height: 480px;
+    width: 2px;
+    margin-top: 10px;
+    
+}
+
+.Sub-Div-2
+{
+    background: linear-gradient(135deg, #141414 70%, #1DB954 85%, #40D77F 100%);
+    height: 100%;
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Sub-Div-Header
+{
+    
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.Sub-Div-Header h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+.Vision-Statement
+{
+    
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Vision-Statement-Header
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Vision-Statement-Header h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+.Vision-Statement-Body
+{
+    
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    padding: 0px 0px 0px 15px;
+}
+.Vision-Statement-Body p
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.2rem;
+    
+}
+
+.Experience
+{
+    
+    height: 310px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Experience-Header
+{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Experience-Header h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+.Experience-Body
+{
+    
+    height: 260px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.MPEC
+{
+    
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+
+}
+.MPEC h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.Role
+{
+    
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+}
+.Role h3
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+.List-Experience
+{
+    
+    height: 200px;
+    width: 100%;
+    padding-left: 10px;
+}
+.List-Experience p
+{
+    color: #fff;
+    font-family: Bebas Neue, Arial;
+    font-size: 1.8rem;
+    line-height: 45px;
+    
+}
